@@ -7,7 +7,7 @@
 
 2. [BASH SHELL] MODIFY XML, MAKE A NEW WAV-BASED PLAYLIST FROM EXISTING ONE:
 
-- sudo rekord_xml_play.py --playlist 2023-TARA-NICEROOTS --outputlist NEWROOTS_TARA
+- sudo rekord_xml_wav.py --playlist 2023-TARA-NICEROOTS --outputlist NEWROOTS_TARA
 ** Repeat as needed
 ** If something goes wrong you can overwrite rekordback_backup.xml with backup to reset.
 
@@ -21,3 +21,8 @@
 - It will import, then export to USB
 - When finished exporting to USB you can go to 'collection', sort by date added, remove all the WAVs
 - Delete WAVs from disk
+
+
+### NOTES
+
+rekord_xml_play.py seems to be designed to convert the entire library like I did for Mikey
