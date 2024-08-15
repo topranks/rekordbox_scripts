@@ -5,10 +5,11 @@
 ** When done back it up:  cp reckordbox_backup.xml rekordbox_backup.xml.bak
 
 
-2. [BASH SHELL] MODIFY XML, ADDING NEW WAV-BASED PLAYLISTS FROM EXISTING ONE:
+2. [BASH SHELL] MODIFY XML, MAKE A NEW WAV-BASED PLAYLIST FROM EXISTING ONE:
 
-- sudo rekord_xml_play.py --playlist_file file_with_playlist_names.txt
-** If something goes wrong you can overwrite rekordback_backup.xml with backup and restart
+- sudo rekord_xml_play.py --playlist 2023-TARA-NICEROOTS --outputlist NEWROOTS_TARA
+** Repeat as needed
+** If something goes wrong you can overwrite rekordback_backup.xml with backup to reset.
 
 
 3. [REKORDBOX] IMPORT WAVs AND EXPORT PLAYLISTS TO USB:
