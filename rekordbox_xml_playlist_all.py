@@ -44,7 +44,6 @@ def main():
         xml_playlist.decompose()
     print("done.")
 
-    sys.exit(0)
 
     # Get every track ID, so we can make sure to use unique one for our additions
     # Unsure if this is needed when removing existing items
@@ -64,8 +63,6 @@ def main():
     last_trackid = sorted(track_ids)[-1]
 
     ## next we need to convert all tracks
-
-    sys.exit(0)
 
     for track in playlist_tracks.values():
         newtrack = copy.deepcopy(track)

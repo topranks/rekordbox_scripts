@@ -7,7 +7,7 @@
 
 2. [BASH SHELL] MODIFY XML, MAKE A NEW WAV-BASED PLAYLIST FROM EXISTING ONE:
 
-- sudo rekordbox_xml_playlist_all.py --playlist 2023-TARA-NICEROOTS --outputlist NEWROOTS_TARA
+- sudo rekordbox_xml_playlist_select.py --playlist 2023-TARA-NICEROOTS --outputlist NEWROOTS_TARA
 ** Repeat as needed
 ** If something goes wrong you can overwrite rekordback_backup.xml with backup to reset.
 
