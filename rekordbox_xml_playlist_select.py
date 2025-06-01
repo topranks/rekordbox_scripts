@@ -67,6 +67,7 @@ def main():
         ffmpeg_cmd = f'ffmpeg -n -i "{linuxpath}" -sample_fmt s16 -ar 44100 "{wavpath}"'
         print(f"CMD: {ffmpeg_cmd}")
         os.system(ffmpeg_cmd)
+        # Update the metadata we copied from the old file where we need to:
         newtrack['Kind'] = "WAV File"
         newtrack['Size'] = os.path.getsize(wavpath)
         newtrack['BitRate'] = "1411"
